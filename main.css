@@ -1,10 +1,79 @@
-#skills img{
-    width: 50px;
-    height:50px;
+body {
+    background-color: white;
+    color: black;
+}
+
+nav ul{
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+}
+
+nav ul li{
+    margin: 5px;
+}
+
+main{
+    margin-top: 100px;
+}
+
+main h3{
+    margin-left: 150px;
+}
+
+#about-me-img{
+    position: static;
+    margin-left: 15px;
+    width: 350px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.about-me-container{
+    display:flex;
+    flex-grow: 1;
+}
+
+.about-me-container-item{
+    margin: 35px;
+}
+
+.grid-container{
+    display:grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.grid-item{
+    width: 350px;
+    height: auto;
+}
+
+#skills img, #contact-me img{
+    width: 70px;
+    height:70px;
     margin: 0 5px 0 5px;
 }
 
-table, th, td{
-    padding: 5px;
-    border: 1px solid black;
+#contact-me img:hover{
+    cursor:pointer;
+}
+
+.experience-flex-container{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    align-content: start;
+    align-items: center;
+}
+
+#experience img{
+    width: 150px;
+    height: 150px;
+}
+
+section{
+    margin-bottom: 30px;
+
 }

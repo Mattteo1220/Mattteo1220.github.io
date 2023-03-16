@@ -7,129 +7,117 @@
 
     <body>
         <header>
-            <h1>Portfolio - Matthew McEntire</h1>
-            <nav>
-                <ul>
-                    <li>About Me</li>
-                    <li>Skills</li>
-                    <li>Experience</li>
-                    <li>ShowCase</li>
+            <nav class="nav-container">
+                <ul class="nav-flex-item">
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact-me">Contact Me</a></li>
                 </ul>
             </nav>
         </header>
         <main>
 
+            <h3>About Me</h3>
             <section id="about-me">
-                <h3>About Me</h3>
-                <img src="./images/me.png">
-                <section class="info">
-                    <h4>Summary</h4>
-                    <p id="summary">
-                        Born and raised in Sandy, UT. I am an avid swimmer since I was a little boy. Swimming, playing water polo and track/Cross Country were my go to sports. 
+                <section class="info about-me-container">
+                    <img src="./Resources/me.png" id="about-me-img" class="info-details about-me-container-item">
+                    <p id="summary" class="info-details about-me-container-item">
+                        My name is Matthew McEntire. Born and raised in Sandy, UT. I am an avid swimmer since I was a little boy. Swimming, playing water polo and track/Cross Country were my go to sports.
                         I attended Brighton High School where I graduated and then Joined the United states Marine Corps Reserve. 
                         After a year of the Marines, I served a mission or religious sabbatical for the Church of Jesus Christ of Latter Day Saints in Panama City, Panama. 
                         Immediately following my mission, I returned to serve six years with the Marine Corps and attended the University of Utah to study Middle Eastern Studies. After two years of studying Arabic and the history of the Near East, I switched my major to Computer science with an emphasis in information security. 
                         I graduated from Southern New Hampshire in computer science. 
                         All while serving in the Marine Corps Reserve and studying, I was working as a software engineer in test for many years. Following 8 years as a SDET within the industry, I made a career change to become a software engineer. 
+                        Some of my hobbies include hiking, backpacking, camping, kayaking, reading, writing and engaging in the occassional Spartan and tough mudder races.
                         And Last but certainly the most important, I am married to a wonderful panamanian woman whom I met on my mission and I have two wonderful children, a boy and a girl. 
                     </p>
-
-                    <h4>Hobbies</h4>
-                    <ul>
-                        <li>Hiking</li>
-                        <li>Backpacking</li>
-                        <li>Camping</li>
-                        <li>Kayaking</li>
-                        <li>Reading</li>
-                        <li>Writing</li>
-                        <li>Spartan/Tough Mudder races</li>
-                    </ul>
                 </section>
             </section>
 
-            <section id="skills">
-                <h3>Skills</h3>
-                <h5>Languages</h5>
-                <img src="./Resources/html5.png" alt="html5" title="html5">
-                <img src="./Resources/css3.png" alt="css3" title="css3">
-                <img src="./Resources/vanillajs.png" alt="vanillaJs" title="Vanilla JS">
-                <img src="./Resources/jquery.png" alt="jquery" title="Jquery">
-                <img src="./Resources/csharp.png" alt="C#" title="C#">
-                <img src="./Resources/mssql.png" alt="Microsoft sql server" title="Sql Server">
-                <img src="./Resources/mongodb.png" alt="Mongo DB" title="Mongo DB">
-                <img src="./Resources/java.png" alt="Java" title="Java">
-                <img src="./Resources/python.png" alt="python" title="Python">
-                <img src="./Resources/cplusplus.png" alt="C++" title="C++">
+            <h3>Skills</h3>
+            <section id="skills" class="grid-container">
 
-                <h5>Certificates</h5>
-                <img src="./Resources/ssp-suites-net-icon.png" alt="Defending .Net" title="CredentialId: C128597">
-                <img src="./Resources/cc-isc2.png" alt="Certified In Cybersecurity by ISC2" title="CredentialId: 956345">
-                <img src="./Resources/CSSLP-isc2.png" alt="Certified Secure Software lifecycle Professional" title="CredentialId: 956345">
+                <section id="languages" class="grid-item">
+                    <h5>Languages</h5>
+                    <img src="./Resources/html5.png" alt="html5" title="html5">
+                    <img src="./Resources/css3.png" alt="css3" title="css3">
+                    <img src="./Resources/vanillajs.png" alt="vanillaJs" title="Vanilla JS">
+                    <img src="./Resources/jquery.png" alt="jquery" title="Jquery">
+                    <img src="./Resources/csharp.png" alt="C#" title="C#">
+                    <img src="./Resources/mssql.png" alt="Microsoft sql server" title="Sql Server">
+                    <img src="./Resources/mongodb.png" alt="Mongo DB" title="Mongo DB">
+                    <img src="./Resources/java.png" alt="Java" title="Java">
+                    <img src="./Resources/python.png" alt="python" title="Python">
+                    <img src="./Resources/cplusplus.png" alt="C++" title="C++">
+                    <img src="./Resources/postgreicon.png" alt="Postgres Sql" title="PostgreSql">
+                </section>
 
+                <section id="certificates" class="grid-item">
+                    <h5>Certificates</h5>
+                    <img src="./Resources/ssp-suites-net-icon.png" alt="Defending .Net" title="CredentialId: C128597">
+                    <img src="./Resources/cc-isc2.png" alt="Certified In Cybersecurity by ISC2" title="CredentialId: 956345">
+                    <img src="./Resources/CSSLP-isc2.png" alt="Certified Secure Software lifecycle Professional" title="CredentialId: 956345">
+                </section>
 
-                <h5>Testing frameworks</h5>
-                <img src="./Resources/selenium.png" alt="selenium" title="Selenium">
-                <img src="./Resources/jest.png" alt="jest" title="Jest">
-                <img src="./Resources/nunit.png" alt="nunit" title="NUnit">
-                <img src="./Resources/xunit.png" alt="xunit" title="XUnit">
+                <section id="testing-frameworks" class="grid-item">
+                    <h5>Testing frameworks</h5>
+                    <img src="./Resources/selenium.png" alt="selenium" title="Selenium">
+                    <img src="./Resources/jest.png" alt="jest" title="Jest">
+                    <img src="./Resources/nunit.png" alt="nunit" title="NUnit">
+                    <img src="./Resources/xunit.png" alt="xunit" title="XUnit">
+                </section>
 
-                <h5>Tools</h5>
-                <img src="./Resources/Jams.png" alt="Jams Job Scheduler" title="Jams Job Scheduler">
-                <img src="./Resources/nservicebus.png" alt="N Service Bus" title="NService Bus">
-                <img src="./Resources/azureServiceBus.png" alt="Azure Service Bus" title="Azure service bus">
-                <img src="./Resources/azure.png" alt="Azure" title="Azure">
+                <section id="tools" class="grid-item">
+                    <h5>Tools</h5>
+                    <img src="./Resources/Jams.png" alt="Jams Job Scheduler" title="Jams Job Scheduler">
+                    <img src="./Resources/nservicebus.png" alt="N Service Bus" title="NService Bus">
+                    <img src="./Resources/azureServiceBus.png" alt="Azure Service Bus" title="Azure service bus">
+                    <img src="./Resources/azure.png" alt="Azure" title="Azure">
+                </section>
 
-                <h5>Paradigms</h5>
-                <img src="./Resources/tdd.png" alt="Test Driven Development" title="Test Driven Development">
-                <img src="./Resources/oop.png" alt="Object Oriented Programming" title="Object Oriented Programming">
-                <img src="./Resources/agile.png" alt="Agile" title="Agile">
+                <section id="paragigms" class="grid-item">
+                    <h5>Paradigms</h5>
+                    <img src="./Resources/tdd.png" alt="Test Driven Development" title="Test Driven Development">
+                    <img src="./Resources/oop.png" alt="Object Oriented Programming" title="Object Oriented Programming">
+                    <img src="./Resources/agile.png" alt="Agile" title="Agile">
+                    </section>
             </section>
 
-            <section id="experience">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Employer</th>
-                            <th>Position</th>
-                            <th>Years</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>HealthEquity</td>
-                            <td>Software Engineer</td>
-                            <td>2</td>
-                        </tr>
+            <h3>Experience</h3>
+            <section id="experience" class="experience-flex-container">
+                <section id="sqa" class="experience-flex-item">
+                    <h5>Software Development Engineer in Test</h5>
+                    <img src="./Resources/SQA.png" alt="Software Quality Assurance Icon" title="Software Quality Assurance">
+                    <h2>Placeholder</h2>
+                </section>
 
-                        <tr>
-                            <td>HealthEquity</td>
-                            <td>Software Engineer In Test</td>
-                            <td>3</td>
-                        </tr>
+                <section id="se" class="experience-flex-item">
+                    <h5>Software Engineer</h5>
+                    <img src="./Resources/SE.png" alt="Software Engineer Icon" title="Software Engineer">
+                    <h2>Placeholder</h2>
+                </section>
 
-                        <tr>
-                            <td>KornerStone Credit</td>
-                            <td>Software Engineer In Test</td>
-                            <td>2</td>
-                        </tr>
 
-                        <tr>
-                            <td>Crest Financial</td>
-                            <td>Software Engineer In Test</td>
-                            <td>2</td>
-                        </tr>
-
-                    </tbody>
-                </table>
 
             </section>
 
-            <section id="showcase">
+            <section id="projects">
+                <h3>Projects</h3>
+                <img src="./Resources/Projects/blah.png">
+            </section>
 
+            <section id="contact-me">
+                <h3>Please contact me at the following addresses:</h3>
+                <img src="./Resources/GitHub-logo.png" alt="Git hub logo" title="https://github.com/Mattteo1220">
+                <img src="./Resources/Gmail.png" alt="Gmail icon" title="msmcentire1220@gmail.com">
             </section>
         </main>
         <footer>
 
         </footer>
+
+        <script src="./index.js" type="text/javascript"></script>
     </body>
 </html>
