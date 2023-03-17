@@ -1,7 +1,8 @@
-let sqaStartYear = 2015;
-let seStartYear = 2021;
+
 
 let setExperienceYears = () => {
+    let sqaStartYear = 2015;
+    let seStartYear = 2021;
     let sqaElement = document.getElementById("sqa").getElementsByTagName("h2")[0];
     let sqaYearsOfExperience = new Date().getFullYear() - sqaStartYear;
     sqaElement.innerHTML = `${sqaYearsOfExperience}+ Years`;
@@ -14,3 +15,5 @@ let setExperienceYears = () => {
 }
 
 setExperienceYears();
+
+

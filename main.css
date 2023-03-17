@@ -75,5 +75,9 @@ main h3{
 
 section{
     margin-bottom: 30px;
+}
 
+.contact-me-flex-container{
+    display:flex;
+    justify-content: space-evenly;
 }
