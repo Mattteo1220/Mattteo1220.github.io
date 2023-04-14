@@ -81,3 +81,21 @@ section{
     display:flex;
     justify-content: space-evenly;
 }
+
+#projects{
+    width: 75%;
+    height: 100%;
+    margin: auto 15%;
+}
+
+.project-container{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+iframe{
+    width: auto;
+    height: auto;
+}
